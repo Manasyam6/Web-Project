@@ -1,0 +1,197 @@
+ul{
+    list-style-type:None;
+    margin:0px;
+    padding:0px;
+    display:inline; 
+    font-size: 20px;
+}
+li{
+  display:inline;
+  margin-right:10px;
+  text-align-last: right;
+  justify-content: space-between;
+  color: white;
+  
+}
+.cont{
+  background-image: url("pastries.jpg");
+}
+.container{
+    width:60%;
+    margin:0px auto;
+    padding:20px;
+    background-color:rgb(241, 177, 39);
+    height:680px;
+    border:1px;
+    box-sizing:border-box;
+    border-radius:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .container p{
+    padding: auto;
+  }
+.carousel {
+  width:100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between;
+}
+.carousel-inner {
+  display: flex;
+  width: 400%;
+  animation: carouselAnimation 100s infinite alternate;
+}
+.carousel-item {
+  width: 25%;
+  box-sizing: border-box;
+}
+.carousel-item img {
+  width: 90%;
+  border-radius: 13px;
+  height:380px;
+}
+@keyframes carouselAnimation {
+  0%, 100% {
+      transform: translateX(0);
+  }
+  25%, 75% {
+      transform: translateX(-50%);
+  }
+  50% {
+      transform: translateX(-100%);
+  }
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .service-card {
+    background-color: #e9d873;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(235, 153, 22, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  .service-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 65%;
+    margin-bottom: 25px;
+  }
+  .service-card h3 {
+    margin: 10px 0;
+  }
+  .service-card p {
+    color: #0c0b0b;
+  }
+  #map-container {
+    width: 100%;
+    height: 500vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color:yellow;
+    font-size: medium;
+    margin-bottom: 40px;
+  }
+  h2{
+    text-align:left;
+    font-size:28px;
+    font-weight: bold;
+    color:black;
+    margin-bottom:30px;
+  }
+  .map-container1{
+    position:relative;
+    width:80%;
+    height:0;
+    padding-left: 200px;
+    padding-bottom:20%;
+    top:0;left:0;
+    border: none;
+    border-radius: 20px;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    style-display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .button{
+    display:inline-block;
+    background-color: rgb(6, 160, 160);
+    color:antiquewhite;
+    padding:10px 20px;
+    border-radius:5px;
+    text-decoration:none;
+    margin-top:20px;
+    transition:background-color 0.3s;
+  }
+  .button:hover{
+    background-color: rgb(233, 156, 13);
+  }
+  .address{
+    justify-content: flex;
+    width:410px;
+    border:1px solid rgb(14, 12, 12);
+    padding:10px;
+    margin-right: 10px;
+    height:30vh;
+    margin-top: 10px;
+    flex-grow: 1;
+    float: inline-end;
+    border-radius: 10px;
+  }
+  .address p{
+    margin: 1px;
+    text-align:center;
+    color: rgb(13, 12, 12);
+  }
+input{
+    border-radius: 25px;
+    height: 40px;
+    width:250px;
+    padding-left: 0 10px;
+    color:black;
+    font-family:cursive;
+}
+.text{
+  padding: 6px 12px 6px;
+}
+textarea{
+    border-radius: 15px;
+    height:50px;
+    width:250px;
+    color:black;
+    font-family:cursive;
+}
+section {
+  padding: 20px;
+}
+.container1{
+    width:60%;
+    margin:0px auto;
+    padding:20px;
+    background-color:rgb(242, 187, 76);
+    height:100px;
+    border:1px;
+    width: 1480px;
+}
+.bg{
+  background-image: url('bake.jpg');
+  height:60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg h1{
+  font-size: 40px;
+}
